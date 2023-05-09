@@ -1,0 +1,13 @@
+{
+  "name": "vike-react-simple",
+  "version": "0.0.1",
+  "main": "./config.mjs",
+  "dependencies": {},
+  "peerDependencies": {
+    "react": "18.x.x",
+    "react-dom": "18.x.x",
+    "vite-plugin-ssr": "^0.4.123"
+  },
+  "repository": "github:brillout/vike-react-simple",
+  "license": "MIT"
+}
