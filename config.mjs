@@ -1,5 +1,5 @@
-import onRenderHtml from './onRenderHtml'
-import onRenderClient from './onRenderClient'
+import onRenderHtml from 'vike-react-simple/onRenderHtml'
+import onRenderClient from 'vike-react-simple/onRenderClient'
 
 export default {
   onRenderHtml,

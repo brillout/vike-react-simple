@@ -1,7 +1,12 @@
 {
   "name": "vike-react-simple",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./config.mjs",
+  "exports": {
+    ".": "./config.mjs",
+    "./onRenderHtml": "./onRenderHtml.mjs",
+    "./onRenderClient": "./onRenderClient.mjs"
+  },
   "dependencies": {},
   "peerDependencies": {
     "react": "18.x.x",
