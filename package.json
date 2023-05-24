@@ -12,6 +12,9 @@
     "react-dom": "18.x.x",
     "vite-plugin-ssr": "^0.4.123"
   },
+  "scripts": {
+    "release": "npm version patch && npm publish && git push && git push --tags"
+  },
   "repository": "github:brillout/vike-react-simple",
   "license": "MIT"
 }
