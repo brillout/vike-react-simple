@@ -1,6 +1,6 @@
 {
   "name": "vike-react-simple",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "exports": {
     ".": "./+config.mjs",
     "./onRenderHtml": "./onRenderHtml.mjs",
