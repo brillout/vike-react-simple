@@ -10,7 +10,7 @@
   "peerDependencies": {
     "react": "18.x.x",
     "react-dom": "18.x.x",
-    "vite-plugin-ssr": "^0.4.123"
+    "vite-plugin-ssr": "^0.4.130"
   },
   "scripts": {
     "release": "npm version patch && npm publish && git push && git push --tags"
