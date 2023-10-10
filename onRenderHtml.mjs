@@ -1,9 +1,9 @@
-// https://vite-plugin-ssr.com/onRenderHtml
+// https://vike.dev/onRenderHtml
 export default onRenderHtml
 
 import { renderToString } from 'react-dom/server'
 import { createElement as h } from 'react'
-import { escapeInject, dangerouslySkipEscape } from 'vite-plugin-ssr/server'
+import { escapeInject, dangerouslySkipEscape } from 'vike/server'
 
 async function onRenderHtml(pageContext) {
   const { Page, Layout } = pageContext.config
