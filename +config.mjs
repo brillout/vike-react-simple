@@ -3,7 +3,7 @@ export default {
   onRenderClient: 'import:vike-react-simple/onRenderClient',
   meta: {
     Layout: {
-      env: 'server-and-client'
+      env: { server: true, client: true }
     }
   }
 }
