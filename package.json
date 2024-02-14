@@ -2,9 +2,9 @@
   "name": "vike-react-simple",
   "version": "0.1.1",
   "exports": {
-    ".": "./+config.mjs",
-    "./onRenderHtml": "./onRenderHtml.mjs",
-    "./onRenderClient": "./onRenderClient.mjs"
+    ".": "./+config.js",
+    "./onRenderHtml": "./onRenderHtml.js",
+    "./onRenderClient": "./onRenderClient.js"
   },
   "dependencies": {},
   "peerDependencies": {
@@ -16,5 +16,6 @@
     "release": "npm version patch && npm publish && git push && git push --tags"
   },
   "repository": "github:brillout/vike-react-simple",
+  "type": "module",
   "license": "MIT"
 }
